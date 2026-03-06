@@ -2,7 +2,7 @@
 
 Welcome to my interactive portfolio website! This is a modern, creative showcase of my work as a **Creative Developer & Marketer**. The site features smooth animations, 3D graphics, and an engaging user experience built with cutting-edge web technologies.
 
-**Live Demo:** [https://vaishnav-naik-portfolio.com](https://my-portfolio-delta-ten-20.vercel.app/)  
+**Live Demo:** (https://my-portfolio-delta-ten-20.vercel.app/)  
 **Email:** vaishnav19naik@gmail.com  
 **GitHub:** https://github.com/vaishnav1906/My-Portfolio
 
