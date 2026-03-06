@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import "./styles/WhatIDo.css";
-import { ScrollTrigger } from "gsap/ScrollTrigger.js";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const WhatIDo = () => {
   const containerRef = useRef<(HTMLDivElement | null)[]>([]);
@@ -90,8 +90,9 @@ const WhatIDo = () => {
               <h3>DEVELOP</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                I can build efficient and scalable web applications using React, Node.js, and Express. 
+                I have experience in creating responsive and user-friendly interfaces, as well as designing and implementing RESTful APIs.
+                I am also passionate about turnin ideas into functional products through code, innovation and continous learning.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -128,11 +129,11 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
+              <h3>MARKETING</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                I can create strategies that grow brands. engage audiences, and turn ideas into measurable impact. 
+                I focus on storytelling, digital campaigns, and data-driven marketing that connects brands with people.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">

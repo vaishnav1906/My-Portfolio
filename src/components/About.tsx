@@ -6,9 +6,8 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          I am a developer and marketer who enjoys building digital products and creating strategies that help ideas reach the right audience.
+          I like solving problems with technology while also focusing on how products grow, connect with users, and create real impact.
         </p>
       </div>
     </div>
