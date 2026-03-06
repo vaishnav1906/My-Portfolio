@@ -1,5 +1,4 @@
 import "./styles/Work.css";
-import WorkImage from "./WorkImage";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
@@ -11,21 +10,29 @@ const workItems = [
     title: "Supportwise",
     category: "Application Product",
     tools: "Javascript, TypeScript, React, CSS, FAQ Matching",
+    description:
+      "A smart customer support application powered by FAQ matching algorithms that automatically routes and resolves user queries with precision.",
   },
   {
     title: "Ledgerium",
     category: "Application Product",
     tools: "Javascript, TypeScript, React, CSS, Finance",
+    description:
+      "A finance-focused platform providing real-time ledger management, transaction tracking, and insightful reporting dashboards.",
   },
   {
-    title: "Story Telling Platform",
+    title: "Text Summarisation using BiLSTM and Attention",
     category: "Application Product",
-    tools: "Jupyter Notebook, Python, Data Visualization",
+    tools: "Python, NLP, Data Visualization",
+    description:
+      "An advanced text summarization model leveraging BiLSTM and attention mechanisms to generate concise summaries from large documents with high accuracy.",
   },
   {
-    title: "Hospital Management",
+    title: "Reflectra",
     category: "Application Product",
-    tools: "DBMS, MySQL, Python, Data Visualization",
+    tools: "Python, Typescript, React, CSS, NLP, HTML, DBMS",
+    description:
+      "Reflectra is an AI-powered conversational system that helps users understand themselves better through interactive dialogue. It analyzes a user’s communication style and behavior to build a dynamic personality profile, enabling features like reflection and communication mirroring for deeper self-awareness.",
   },
 ];
 
@@ -90,7 +97,9 @@ const Work = () => {
                 <h4>Tools and features</h4>
                 <p>{item.tools}</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <div className="work-description">
+                <p>{item.description}</p>
+              </div>
             </div>
           ))}
         </div>
